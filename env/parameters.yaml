@@ -1,0 +1,10 @@
+adminUser:
+  password: vault:cosmin-authref/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: jx-bot@gmx.ch
+  token: vault:cosmin-authref/pipelineUser:token
+  username: ccojocar-bot
+prow:
+  hmacToken: vault:cosmin-authref/prow:hmacToken
