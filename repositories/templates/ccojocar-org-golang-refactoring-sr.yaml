@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: ccojocar-org
+    provider: github
+    repository: golang-refactoring
+  name: ccojocar-org-golang-refactoring
+spec:
+  description: Imported application for ccojocar-org/golang-refactoring
+  httpCloneURL: https://github.com/ccojocar-org/golang-refactoring.git
+  org: ccojocar-org
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: golang-refactoring
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/ccojocar-org/golang-refactoring.git
