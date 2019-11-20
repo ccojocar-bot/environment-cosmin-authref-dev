@@ -20,7 +20,7 @@ environments:
 - ingress:
     cloud_dns_secret_name: external-dns-gcp-sa
     domain: 35.205.191.251.nip.io
-    externalDNS: true
+    externalDNS: false
     namespaceSubDomain: -jx.
     tls:
       email: cosmin.cojocar@gmx.ch
@@ -49,7 +49,7 @@ gitops: true
 ingress:
   cloud_dns_secret_name: external-dns-gcp-sa
   domain: 35.205.191.251.nip.io
-  externalDNS: true
+  externalDNS: false
   namespaceSubDomain: -jx.
   tls:
     email: cosmin.cojocar@gmx.ch
