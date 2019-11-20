@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: ccojocar-org
+    provider: github
+    repository: golang-sanitized2
+  name: ccojocar-org-golang-sanitized2
+spec:
+  description: Imported application for ccojocar-org/golang-sanitized2
+  httpCloneURL: https://github.com/ccojocar-org/golang-sanitized2.git
+  org: ccojocar-org
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: golang-sanitized2
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/ccojocar-org/golang-sanitized2.git
