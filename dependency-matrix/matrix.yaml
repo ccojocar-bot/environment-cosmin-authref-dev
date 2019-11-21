@@ -11,3 +11,9 @@ dependencies:
   url: https://github.com/ccojocar-org/golang-sanitized2.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: ccojocar-org
+  repo: golang-bdd-test
+  url: https://github.com/ccojocar-org/golang-bdd-test.git
+  version: ""
+  versionURL: ""
